@@ -1,0 +1,14 @@
+C:\Users\simon.perssonholm\Documents\prog1\4inarow\4inarow\bin\Debug\net8.0\4inarow.exe
+C:\Users\simon.perssonholm\Documents\prog1\4inarow\4inarow\bin\Debug\net8.0\4inarow.deps.json
+C:\Users\simon.perssonholm\Documents\prog1\4inarow\4inarow\bin\Debug\net8.0\4inarow.runtimeconfig.json
+C:\Users\simon.perssonholm\Documents\prog1\4inarow\4inarow\bin\Debug\net8.0\4inarow.dll
+C:\Users\simon.perssonholm\Documents\prog1\4inarow\4inarow\bin\Debug\net8.0\4inarow.pdb
+C:\Users\simon.perssonholm\Documents\prog1\4inarow\4inarow\obj\Debug\net8.0\4inarow.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\simon.perssonholm\Documents\prog1\4inarow\4inarow\obj\Debug\net8.0\4inarow.AssemblyInfoInputs.cache
+C:\Users\simon.perssonholm\Documents\prog1\4inarow\4inarow\obj\Debug\net8.0\4inarow.AssemblyInfo.cs
+C:\Users\simon.perssonholm\Documents\prog1\4inarow\4inarow\obj\Debug\net8.0\4inarow.csproj.CoreCompileInputs.cache
+C:\Users\simon.perssonholm\Documents\prog1\4inarow\4inarow\obj\Debug\net8.0\4inarow.dll
+C:\Users\simon.perssonholm\Documents\prog1\4inarow\4inarow\obj\Debug\net8.0\refint\4inarow.dll
+C:\Users\simon.perssonholm\Documents\prog1\4inarow\4inarow\obj\Debug\net8.0\4inarow.pdb
+C:\Users\simon.perssonholm\Documents\prog1\4inarow\4inarow\obj\Debug\net8.0\4inarow.genruntimeconfig.cache
+C:\Users\simon.perssonholm\Documents\prog1\4inarow\4inarow\obj\Debug\net8.0\ref\4inarow.dll
