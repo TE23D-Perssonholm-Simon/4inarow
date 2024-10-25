@@ -12,3 +12,4 @@ C:\Users\simon.perssonholm\Documents\prog1\4inarow\4inarow\obj\Debug\net8.0\refi
 C:\Users\simon.perssonholm\Documents\prog1\4inarow\4inarow\obj\Debug\net8.0\4inarow.pdb
 C:\Users\simon.perssonholm\Documents\prog1\4inarow\4inarow\obj\Debug\net8.0\4inarow.genruntimeconfig.cache
 C:\Users\simon.perssonholm\Documents\prog1\4inarow\4inarow\obj\Debug\net8.0\ref\4inarow.dll
+C:\Users\simon.perssonholm\Documents\prog1\4inarow\4inarow\obj\Debug\net8.0\4inarow.sourcelink.json
