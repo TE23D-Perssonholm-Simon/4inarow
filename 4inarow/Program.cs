@@ -1,17 +1,76 @@
 ﻿//List<string>[] columns = new List<string>[7];
 //List<string>[] columns = [[],[],[],[],[],[],[]];
-List<string>[] columns = [["x"],["x"],["x"],[""],["o"],["x"],[]];
+using System.Transactions;
+
+List<string>[] columns = [["x"],["x"],["x"],[],["o"],["x"],[]];
+string border = 
+@"
+#-------#
+|       |
+|       |
+|       |
+|       |
+|       |
+|       |
+#-------#";
 try{
+    int playerPos = 0;
+    string playerChar = "x";
+    Console.CursorVisible = false;
+    ConsoleKey input;
 while(true){
     Console.Clear();
+    Console.SetCursorPosition(0,0);
+    System.Console.WriteLine(border);
     for(int i = 0; i < columns.Count(); i++){
-        int g = 0;
         for(int j = columns[i].Count - 1; j >= 0; j--){
-            Console.SetCursorPosition(i+3,9-g);
+            Console.SetCursorPosition(i+1,7-j);
             Console.Write(columns[i][j]);
         }
     }
-    Console.ReadLine();
+    Console.SetCursorPosition(playerPos + 1,2);
+    Console.Write(playerChar);
+    input = Console.ReadKey().Key;
+    if(input == ConsoleKey.A || input == ConsoleKey.LeftArrow){
+        while(true){
+        playerPos--;
+        if(playerPos < 0){
+            playerPos = 7;
+        }
+        else if(columns[playerPos].Count() >= 6){
+            playerPos--;
+        }
+        else{
+            break;
+        }
+        }
+
+    }
+    if(input == ConsoleKey.D || input == ConsoleKey.RightArrow){
+        while(true){
+        playerPos++;
+        if(playerPos > 6){
+            playerPos = -1;
+        }
+        else if(columns[playerPos].Count() >= 6){
+            playerPos++;
+        }
+        else{
+            break;
+        }
+        }
+        
+    }
+    if(input == ConsoleKey.Enter){
+        if(columns[playerPos].Count < 6){
+        columns[playerPos].Add(playerChar);
+        //checkif4inarow
+        //drawcheck
+        //switchplayer
+        //move if full
+        }
+    }
+    
     
 }
 }
